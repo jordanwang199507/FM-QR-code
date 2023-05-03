@@ -1,0 +1,59 @@
+body{
+	background-color: hsl(212, 45%, 89%);
+	font-size: 15px;
+	font-family: 'Outfit', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.qr-container{
+    width: 90vw;
+    background: #D6E1EF;
+    padding: 2rem 0rem;
+    margin: auto;
+}
+
+.qr{
+    background: white;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 17rem;
+
+    &-img{
+        max-height: 18rem;
+        max-width: 18rem;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 25px;
+        }
+    }
+
+    &-text{
+        text-align: center;
+        margin-top: 2rem;
+        font-family: "Montserrat";
+    }
+
+    &-main{
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    &-secondary{
+        font-weight: 400;
+        color: grey;
+        margin-top: 1rem;
+        line-height: 1.5;
+        font-size: .9rem;
+    }
+}

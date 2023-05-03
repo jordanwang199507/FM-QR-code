@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "frontend mentor project easy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanwang199507/FM-QR-code.git"
+  },
+  "author": "Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanwang199507/FM-QR-code/issues"
+  },
+  "homepage": "https://github.com/jordanwang199507/FM-QR-code#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
